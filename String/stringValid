@@ -1,0 +1,50 @@
+if __name__ == '__main__':
+    s = input()
+  #for alphanumeric  
+a=bool
+for i in range(len(s)):
+        if(s[i].isalnum()):
+            a=True
+            break
+        else:
+            a=False
+print(a)
+   # for alpha
+d=bool
+for i in range(len(s)):
+        if(s[i].isalpha()):
+            d=True
+            break
+        else:
+            d=False
+print(d)
+    #For digits
+c=bool
+for i in range(len(s)):
+        if(s[i].isdigit()):
+            c=True
+            break
+        else:
+            c=False
+print(c)   
+    #For lowercase char
+g=bool
+for i in range(len(s)):
+        if(s[i].islower()):
+            g=True
+            break
+        else:
+            g=False
+print(g)
+    #For uppercase char
+k=bool
+for i in range(len(s)):
+        if(s[i].isupper()):
+            k=True
+            break
+        else:
+            k=False
+print(k)
+    
+        
+    
